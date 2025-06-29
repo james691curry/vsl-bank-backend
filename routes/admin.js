@@ -1,7 +1,7 @@
 // routes/admin.js
 const express = require('express');
 const router = express.Router();
-const { approveTransaction, getAllUsers } = require('../controllers/admincontroller');
+const { approveTransaction, getAllUsers } = require('../controllers/adminController');
 
 // @route   POST /api/admin/approve-transaction
 router.post('/approve-transaction', approveTransaction);

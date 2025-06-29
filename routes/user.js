@@ -1,7 +1,7 @@
 // routes/user.js
 const express = require('express');
 const router = express.Router();
-const { getUserProfile, updateUser } = require('../controllers/usercontroller');
+const { getUserProfile, updateUser } = require('../controllers/userController');
 
 // @route   GET /api/user/profile
 router.get('/profile', getUserProfile);
